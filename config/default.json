@@ -28,7 +28,7 @@
   // Mail server
   "mail": {
     // Listening address
-    "host": "0.0.0.0",
+    "host": "204.48.17.197",
     "port": 25,
     // SMTP options
     "hostname": "foodier.site",
