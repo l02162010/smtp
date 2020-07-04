@@ -22,14 +22,14 @@
     "smtp": {
       // Contact address
       "host": "localhost",
-      "port": 2525
+      "port": 25
     }
   },
   // Mail server
   "mail": {
     // Listening address
     "host": "0.0.0.0",
-    "port": 2525,
+    "port": 25,
     // SMTP options
     "hostname": "pleasenospam.local",
     "banner": "Hi can I have some mail please?",
@@ -37,7 +37,7 @@
     "domains": [
       "localhost",
       "pleasenospam.local",
-      "204.48.17.197"
+      "foodier.site"
     ]
   },
   // RethinkDB server
