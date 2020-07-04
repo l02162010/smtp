@@ -1,0 +1,24 @@
+{
+  "app": {
+    "keys": [
+      "random key here"
+    ],
+
+    "smtp": {
+      "host": "mail"
+    }
+  },
+
+  "mail": {
+    "hostname": "pleasenospam.email",
+
+    "domains": [
+      "pleasenospam.email",
+      "spamlessmail.org"
+    ]
+  },
+
+  "db": {
+    "host": "db"
+  }
+}
