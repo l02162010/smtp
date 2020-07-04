@@ -3,21 +3,18 @@
     "keys": [
       "random key here"
     ],
-
     "smtp": {
       "host": "mail"
     }
   },
-
   "mail": {
     "hostname": "pleasenospam.email",
-
     "domains": [
       "pleasenospam.email",
-      "spamlessmail.org"
+      "spamlessmail.org",
+      "204.48.17.197"
     ]
   },
-
   "db": {
     "host": "db"
   }
