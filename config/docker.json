@@ -10,8 +10,6 @@
   "mail": {
     "hostname": "foodier.site",
     "domains": [
-      "pleasenospam.email",
-      "spamlessmail.org",
       "foodier.site"
     ]
   },

@@ -4,8 +4,7 @@ const name = require('sillyname');
 const email = require('./controllers/email');
 const sse = require('./controllers/sse');
 
-router.get('/', async (ctx) => {
-	console.log(config.mail);
+router.get('/', async(ctx) => {
 	await ctx.render('index', {
 		pretty: config.app.prettyHtml,
 		title: config.app.title,

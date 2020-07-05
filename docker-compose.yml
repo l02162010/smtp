@@ -1,11 +1,5 @@
 version: "2"
 services:
-  web:
-    image: nginx:alpine
-    ports:
-      - "80:80"
-    volumes:
-      - ./test:/usr/share/nginx/html
   app:
     image: node:latest
     command: "npm start"
@@ -20,7 +14,7 @@ services:
     volumes:
       - .:/app
     ports:
-      - "80:3001"
+      - "80:80"
 
   mail:
     image: node:latest

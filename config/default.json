@@ -4,6 +4,7 @@
     // Listening address
     "host": "0.0.0.0",
     "port": 80,
+
     // Host options
     "title": "please, no spam",
     "prettyHtml": true,
@@ -11,6 +12,7 @@
     "keys": [
       "random key here"
     ],
+
     // Test email options
     "test": {
       "fromAddress": "mailbot",
@@ -18,6 +20,7 @@
       "subject": "Your test email is here!",
       "message": "Hello World!\n\nNow go try with a real email!"
     },
+
     // SMTP server for sending test emails
     "smtp": {
       // Contact address
@@ -25,26 +28,30 @@
       "port": 25
     }
   },
+
   // Mail server
   "mail": {
     // Listening address
-    "host": "204.48.17.197",
+    "host": "0.0.0.0",
     "port": 25,
+
     // SMTP options
-    "hostname": "foodier.site",
+    "hostname": "pleasenospam.local",
     "banner": "Hi can I have some mail please?",
+
     // Accepted recipient address domains
     "domains": [
       "localhost",
-      "pleasenospam.local",
-      "foodier.site"
+      "pleasenospam.local"
     ]
   },
+
   // RethinkDB server
   "db": {
     // Contact address
     "host": "localhost",
     "port": 28015,
+
     "database": "pleasenospam"
   }
 }
